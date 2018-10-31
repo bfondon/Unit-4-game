@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body{
+      font-size:14pt;
+  }
+
+  div{
+      border:solid;
+      border-color:white;
+      border-width:2px;
+  }
+
+  header {
+    background:lightgrey;
+    font-size:30pt;
+    font-weight:bold;
+    text-align:center;
+    padding:20px;
+    margin:20px;
+    width:30%;
+    border:solid;
+    border-color:white;
+    border-width:2px;
+  }
+
+  #instructions {
+    background:teal;
+    padding:20px;
+    margin:20px;
+    width:45%;
+    line-height:150%;
+    border:solid;
+    border-color:white;
+    border-width:2px;
+
+  }
+
+  #crystal-value {
+    background:lightgrey;
+    padding:35px 20px;
+    margin:20px;
+    margin-top:5px;
+    width:20%;
+    float:left;
+  }
+
+  #wins_losses{
+    background:lightgrey;
+    padding:20px;
+    margin:20px;
+    margin-top:5px;
+    margin-left:0px;
+    width:10%;
+    line-height:150%;
+    float:left;
+  }
+
+  #crystals{
+    background:teal;
+    padding:20px;
+    margin:20px;
+    width:45%;
+    clear:both;
+    border:solid;
+    border-color:white;
+    border-width:2px;
+  }
+
+  img{
+      width:23%;
+      margin:3px;
+  }
+
+  #total-score{
+    background:lightgrey;
+    padding:20px;
+    margin:20px;
+    width:30%;
+  }
