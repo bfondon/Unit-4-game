@@ -73,7 +73,7 @@
       width:23%;
       margin:3px;
   }
-
+/* Styling to blend in buttons with their container */
   button{
     background-color:teal;
     margin:auto;
