@@ -7,11 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
-    <script src="assets/javascript/game.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=KoHo" rel="stylesheet">
+
 </head>
 <body background="assets/images/dark-triangles.png">
-
+        
         <header><h1>Crystals Collector!</h1></header>
 
         <section id="instructions">
@@ -31,7 +31,7 @@
             <br>
         </section>
 
-        <div id="crystal-value">Number</div>
+        <div id="computer-number">Number</div>
 
         <div id="wins_losses">
 
@@ -43,14 +43,16 @@
 
         <section id="crystals">
 
-            <img src="assets/images/photo-1535411821147-2c6ae713a903.jpeg" alt="Italian Trulli">
-            <img src="assets/images/photo-1539141278536-63a0f98360a7.jpeg" alt="Italian Trulli">
-            <img src="assets/images/photo-1505009258427-29298f4dc5f6.jpeg" alt="Italian Trulli">
-            <img src="assets/images/photo-1504221507732-5246c045949b.jpeg" alt="Italian Trulli">
+            <button id="img1"><img src="assets/images/photo-1535411821147-2c6ae713a903.jpeg" alt="Italian Trulli"></button>
+            <button id="img2"><img src="assets/images/photo-1539141278536-63a0f98360a7.jpeg" alt="Italian Trulli"></button>
+            <button id="img3"><img src="assets/images/photo-1505009258427-29298f4dc5f6.jpeg" alt="Italian Trulli"></button>
+            <button id="img4"><img src="assets/images/photo-1504221507732-5246c045949b.jpeg" alt="Italian Trulli"></button>
 
         </section>
 
-        <div id="total-score">0</div>
+        <div id="total-score">Total Score: 0</div>
 
+        <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>  
+        <script src="assets/javascript/game.js"></script>          
 </body>
 </html>

@@ -1,17 +1,18 @@
 * {
     box-sizing: border-box;
   }
-
+  /* Text style for the entire page */
   body{
       font-size:14pt;
+      font-family:'KoHo', sans-serif;
   }
-
+  /* Setting border for all divs */
   div{
       border:solid;
       border-color:white;
       border-width:2px;
   }
-
+  /* Border and styling for primary header */
   header {
     background:lightgrey;
     font-size:30pt;
@@ -24,7 +25,7 @@
     border-color:white;
     border-width:2px;
   }
-
+/* Border and styling for the major instructions section */
   #instructions {
     background:teal;
     padding:20px;
@@ -36,8 +37,8 @@
     border-width:2px;
 
   }
-
-  #crystal-value {
+/* Styling for the box that displays the value of each crystal chosen */
+  #computer-number {
     background:lightgrey;
     padding:35px 20px;
     margin:20px;
@@ -45,7 +46,7 @@
     width:20%;
     float:left;
   }
-
+/* Styling for the box that displays wins and losses */
   #wins_losses{
     background:lightgrey;
     padding:20px;
@@ -56,7 +57,7 @@
     line-height:150%;
     float:left;
   }
-
+/* Border and styling for the box that displays each crystal */
   #crystals{
     background:teal;
     padding:20px;
@@ -67,15 +68,23 @@
     border-color:white;
     border-width:2px;
   }
-
+/* Styling for images */
   img{
       width:23%;
       margin:3px;
   }
 
+  button{
+    background-color:teal;
+    margin:auto;
+    border:none;
+    width:80%
+  }
+/* Styling for the box displaying the total score */
   #total-score{
     background:lightgrey;
     padding:20px;
     margin:20px;
     width:30%;
+    text-align:center;
   }
